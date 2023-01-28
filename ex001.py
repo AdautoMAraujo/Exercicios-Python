@@ -5,3 +5,4 @@ print(msg)
 # Meu ultimo codigo do Mundo 1!!
 import ex035
 print('Esta é uma alteração de teste GIT')
+print('Eta linha e para a versão staging!')
