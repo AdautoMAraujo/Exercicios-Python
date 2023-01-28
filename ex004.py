@@ -1,0 +1,12 @@
+
+a = input('\033[7;31;107mDigite algo: \033[m')
+print('\033[31mO tipo primitivo deste valor é: ', type(a))
+print('\033[32mÉ numérico? ', a.isnumeric())
+print('\033[33mSó tem espaços? ', a.isspace())
+print('\033[34mSó tem letras? ', a.isalpha())
+print('\033[35mÉ maiúscula? ', a.isupper())
+print('\033[36mÉ minúscula? ', a.islower())
+print('\033[37mPode ser imprimido? ', a.isprintable())
+print('\033[39mÉ alfanumérico? ', a.isalnum())
+print('\033[31mÉ um simbolo? ', a.isascii())
+print('\033[32mEstá capitalizada? ', a.istitle())
